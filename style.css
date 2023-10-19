@@ -1,0 +1,295 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Rubik', sans-serif;
+    user-select: none;
+}
+
+.boshlanishi {
+    display: flex;
+    justify-content: center;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 5px;
+}
+
+#site-logo {
+    width: 180px;
+}
+
+.container {
+    width: 1250px;
+}
+
+#nav-link li {
+    display: inline;
+    float: left;
+    margin: 20px;
+}
+
+#nav-link li a {
+    text-decoration: none;
+    color: black;
+    font-weight: 600;
+}
+
+#lang {
+    height: 30px;
+    font-size: 14px;
+    margin-top: 15px;
+    border: 1px solid rgb(181, 181, 181);
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.banner {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 110px;
+}
+
+#banner-title {
+    color: #8cc5f9;
+    font-size: 58px;
+    font-weight: bold;
+}
+
+#banner-desc {
+    font-size: 22px;
+    width: 550px;
+    color: rgb(121, 121, 121);
+}
+
+#banner-img {
+    width: 450px;
+}
+
+#banner-btn {
+    width: 250px;
+    height: 60px;
+    border-radius: 10px;
+    border: none;
+    margin-top: 80px;
+    background-color: #8cc5f9;
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    box-shadow: 0px 12px 28px 3px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+#banner-btn:hover {
+    background-color: #db7c7c;
+    transition: 0.3s;
+}
+
+.statistics {
+    box-shadow: 0px 12px 28px 3px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    height: 200px;
+    margin-top: 180px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-around;
+    padding: 10px 15px;
+    margin-bottom: 50px;
+}
+
+.stat-item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 35%;
+}
+
+.stat-item img {
+    width: 55px;
+    height: 55px;
+    margin: 20px;
+}
+
+.stat-div h2 {
+    font-weight: bolder;
+}
+
+.stat-div p {
+    color: rgb(121, 121, 121);
+    margin-top: 10px;
+}
+
+#mid-div {
+    border-left: 2px solid #eeeff2;
+    border-right: 2px solid #eeeff2;
+}
+
+.banner2-img {
+    width: 530px;
+}
+
+#banner2-title {
+    color: #8cc5f9;
+    font-size: 38px;
+    font-weight: bold;
+}
+
+#banner2-desc {
+    margin-top: 20px;
+    font-size: 22px;
+    color: rgb(121, 121, 121);
+    word-spacing: 5px;
+}
+
+.banner-content {
+    padding-left: 110px;
+}
+
+.banner-list {
+    margin: 40px 30px;
+}
+
+.banner-list .li {
+    margin: 20px 0;
+    font-size: 18px;
+    display: flex;
+    align-items: center;
+    word-spacing: 4px;
+}
+
+.banner-list .li a {
+    text-decoration: none;
+    margin-left: 40px;
+    color: #8cc5f9;
+}
+
+.productds {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 30px 0;
+}
+
+.first-productd {
+    text-align: center;
+    width: 800px;
+}
+
+.first-productd h1 {
+    margin: 20px;
+    font-weight: 900;
+    word-spacing: 4px;
+    font-family: 22px;
+}
+
+.first-productd p {
+    word-spacing: 2px;
+    font-size: 15px;
+    line-height: 30px;
+}
+
+.bul {
+    width: 365px;
+    padding: 0 40px;
+    box-shadow: 3px 3px 3px 3px rgba(0, 0, 0, 0.178);
+    height: 330px;
+}
+
+.bul img {
+    margin-top: 20px;
+}
+
+.bul h3 {
+    margin: 15px 0;
+    font-size: 22px;
+    color: black;
+    font-weight: 900;
+}
+
+.bul p {
+    line-height: 33px;
+}
+
+.bul button {
+    height: 40px;
+    width: 149px;
+    border-radius: 47px;
+    margin-top: 50px;
+    border-color: rgb(30, 170, 235);
+    background-color: white;
+}
+
+.bulutis {
+    height: 400px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.bul button a {
+    text-align: center;
+    font-size: 18px;
+    text-decoration: none;
+    color: rgb(30, 170, 235);
+    transition: 1s;
+}
+
+.bul button:hover {
+    background-color: rgba(0, 0, 0, 0.753);
+    color: white;
+    transition: 1s;
+}
+
+footer {
+    height: 400px;
+    background-color: #11052cee;
+    display: flex;
+    justify-content: space-around;
+    padding: 40px 50px;
+}
+
+.footer1 {
+    width: 50%;
+    margin-left: 40px;
+}
+
+.footer1 img {
+    width: 230px;
+    height: 80px;
+}
+
+.footer1 p {
+    color: rgb(30, 88, 214);
+    font-size: 22px;
+    line-height: 35px;
+}
+
+.footer1 nav {
+    margin: 30px 0;
+}
+
+.footer2 {
+    width: 50%;
+    margin-left: 40px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.footer2 ul {
+    overflow: hidden;
+}
+
+.footer2 ul li {
+    line-height: 35px;
+    font-size: 22px;
+    color: white;
+}
+
+.footer2 h2 {
+    font-size: 26px;
+    line-height: 45px;
+    color: rgba(0, 101, 253, 0.829);
+}
